@@ -1,5 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+}
+.row{
+  margin: 0;
 }
 
 .App-logo {
@@ -35,4 +43,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* .card{
+  height: 28rem;
+} */
+.card img {
+  height: 15rem;
+  object-fit: cover;
+}
+
+.spiner{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spiner img{
+  width: 5rem;
+  object-fit: cover;
 }
